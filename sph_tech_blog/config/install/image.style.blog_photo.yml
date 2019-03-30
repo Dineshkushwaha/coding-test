@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.blog_photo
+  module:
+    - crop
+name: blog_photo
+label: 'Blog Photo'
+effects:
+  953d49dd-4378-4037-969d-cbba236def00:
+    uuid: 953d49dd-4378-4037-969d-cbba236def00
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: blog_photo

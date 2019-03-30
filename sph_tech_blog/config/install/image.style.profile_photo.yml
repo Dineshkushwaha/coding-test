@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.profile_photo
+  module:
+    - crop
+name: profile_photo
+label: 'Profile Photo'
+effects:
+  8f42f197-ee11-4ffa-b9fb-1b8c7bd58894:
+    uuid: 8f42f197-ee11-4ffa-b9fb-1b8c7bd58894
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: profile_photo
