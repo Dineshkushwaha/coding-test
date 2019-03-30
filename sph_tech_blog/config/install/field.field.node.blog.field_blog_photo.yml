@@ -1,19 +1,20 @@
+uuid: 1b59bace-39b4-46b3-97ae-7918b1df3bb1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_photo
+    - field.storage.node.field_blog_photo
     - node.type.blog
   module:
     - image
-id: node.blog.field_profile_photo
-field_name: field_profile_photo
+id: node.blog.field_blog_photo
+field_name: field_blog_photo
 entity_type: node
 bundle: blog
-label: 'Blog photo'
+label: 'Blog Photo'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
