@@ -1,6 +1,6 @@
-name: SPC
+name: SPH
 type: profile
-description: 'SPC profile.'
+description: 'SPH profile.'
 core: 8.x
 install:
   - node
